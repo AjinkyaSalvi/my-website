@@ -1,0 +1,751 @@
+/* padding: to ri bo le */
+
+/*   ---===###===---   ---===###===---   ---===###===---   Header   ---===###===---   */
+.h {
+     width: 100%;
+     padding: 0px;
+     margin: 0px;
+     text-decoration: none;
+     background-color: rgb(252, 249, 246);
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   Header Box   ---===###===---   */
+.hBox {
+     padding-top: 1px;
+     width: 100%;
+     margin: 0px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     background-image: url("../All-Star Database/Ajinkya Salvi/Website/Black Pattern.png");
+}
+
+@media screen and (min-width: 600px){
+     .hBox {
+          padding-top: 6px;
+          width: 100%;
+          margin: 0px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          background-image: url("../All-Star Database/Ajinkya Salvi/Website/Black Pattern.png");
+     }
+}
+
+@media screen and (min-width: 920px){
+     .hBox {
+          padding-top: 12px;
+          width: 100%;
+          margin: 0px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          background-image: url("../All-Star Database/Ajinkya Salvi/Website/Black Pattern.png");
+     }
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   I. Heading   ---===###===---   */
+.heading {
+     margin-bottom: -15px;
+     margin-top: -20px;
+     text-align: center;
+     font-size: 27px;
+     color: rgb(252, 249, 246);
+}
+
+@media screen and (min-width: 600px){
+     .heading {
+          padding-bottom: 5px;
+          text-align: center;
+          font-size: 36px;
+          color: rgb(252, 249, 246);
+     }
+}
+
+@media screen and (min-width: 920px){
+     .heading {
+          padding-bottom: 10px;
+          text-align: center;
+          font-size: 54px;
+          color: rgb(252, 249, 246);
+     }
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   II. Navigation Bar 01  ---===###===---   */
+.nLAdjust {
+     padding: 0px 9px;
+     display: grid;
+     grid-template-columns: auto auto auto;
+}
+
+@media screen and (min-width: 750px){
+     .nLAdjust {
+          padding: 0px 12px;
+          display: grid;
+          grid-template-columns: auto auto auto auto auto;
+     }
+}
+
+@media screen and (min-width: 1260px){
+     .nLAdjust {
+          padding: 0px 18px;
+          display: grid;
+          grid-template-columns: auto auto auto auto auto auto auto auto auto;
+     }
+}
+
+/* II.01. Navigation Bar 01 - Links */
+.nLink01 {
+     text-decoration: none;
+}
+
+/* II.02. Navigation Bar 01 - Buttons */
+.nButton01:hover {
+     color: rgb(230, 156, 159);
+}
+
+.nButton01 {
+     width: auto;
+     padding: 1px 12px 3px 12px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 14px;
+     color: rgb(252, 249, 246);
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .nButton01 {
+          width: auto;
+          padding: 3px 15px 6px 15px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 18px;
+          color: rgb(252, 249, 246);
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          transition: 0.4s;
+     }
+}
+
+@media screen and (min-width: 920px){
+     .nButton01 {
+          width: auto;
+          padding: 5px 18px 9px 18px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 21px;
+          color: rgb(252, 249, 246);
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          transition: 0.4s;
+     }
+}
+
+/* II.03. Navigation Bar 01 - Active Button */
+.aNButton01:hover {
+     color: rgb(54, 54, 54);
+}
+
+.aNButton01 {
+     width: auto;
+     padding: 1px 12px 3px 12px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 14px;
+     color: rgb(252, 249, 246);
+     background-color: rgb(207, 63, 72);
+     border: none;
+     cursor: pointer;
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .aNButton01 {
+          width: auto;
+          padding: 3px 15px 6px 15px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 18px;
+          color: rgb(252, 249, 246);
+          background-color: rgb(207, 63, 72);
+          border: none;
+          cursor: pointer;
+          transition: 0.4s;
+     }
+}
+
+@media screen and (min-width: 920px){
+     .aNButton01 {
+          width: auto;
+          padding: 5px 18px 9px 18px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 21px;
+          color: rgb(252, 249, 246);
+          background-color: rgb(207, 63, 72);
+          border: none;
+          cursor: pointer;
+          transition: 0.4s;
+     }
+}
+
+.nGrid {
+     display: grid;
+     grid-template-columns: 76% 0%;
+}
+
+@media screen and (min-width: 600px){
+     .nGrid {
+          display: grid;
+          grid-template-columns: 80% 0%;
+     }
+}
+
+@media screen and (min-width: 1000px){
+     .nGrid {
+          display: grid;
+          grid-template-columns: 85% 0%;
+     }
+}
+
+@media screen and (min-width: 1150px){
+     .nGrid {
+          display: grid;
+          grid-template-columns: 87% 0%;
+     }
+}
+
+@media screen and (min-width: 1460px){
+     .nGrid {
+          display: grid;
+          grid-template-columns: 90% 0%;
+          grid-column-gap: 0px;
+     }
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   III. Login Buttons   ---===###===---   */
+/* III.01. Open Login Form Button */
+.oLFButton:hover {
+     background-color: rgb(230, 156, 159);
+}
+
+.oLFButton {
+     width: 81px;
+     height: 27px;
+     z-index: 9;
+     padding-bottom: 1px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 14px;
+     color: rgb(54, 54, 54);
+     background-color: rgb(252, 249, 246);
+     border-radius: 20px;
+     border: none;
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .oLFButton {
+          width: 117px;
+          height: 30px;
+          z-index: 9;
+          padding-bottom: 2px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 18px;
+          color: rgb(54, 54, 54);
+          background-color: rgb(252, 249, 246);
+          border-radius: 20px;
+          border: none;
+          transition: 0.4s;
+     }
+}
+
+@media screen and (min-width: 920px){
+     .oLFButton {
+          width: 144px;
+          height: 36px;
+          z-index: 9;
+          padding: 0px 36px 2px 36px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 21px;
+          color: rgb(54, 54, 54);
+          background-color: rgb(252, 249, 246);
+          border-radius: 20px;
+          border: none;
+          transition: 0.4s;
+     }
+}
+
+/* III.02. Close Login Form Button */
+.cLFButton:hover {
+     background-color: rgb(207, 63, 72);
+     background-image: url("../All-Star Database/Ajinkya Salvi/Website/Red Pattern.png");
+}
+
+.cLFButton {
+     position: relative;
+     top: 10px;
+     left: 180px;
+     width: 81px;
+     height: 27px;
+     padding-bottom:1px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 14px;
+     color: rgb(252, 249, 246);
+     background-color: rgb(207, 63, 72);
+     background-image: none;
+     border-radius: 20px;
+     border: none;
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .cLFButton {
+          position: relative;
+          top: 10px;
+          left: 243px;
+          width: 144px;
+          height: 36px;
+          padding: 0px 36px 2px 36px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 21px;
+          color: rgb(252, 249, 246);
+          background-color: rgb(207, 63, 72);
+          border-radius: 20px;
+          border: none;
+          transition: 0.4s;
+     }
+}
+
+/* III.03. Login Button */
+.liButton:hover {
+     background-color: rgb(207, 63, 72);
+     background-image: url("../All-Star Database/Ajinkya Salvi/Website/Red Pattern.png");
+}
+
+.liButton {
+     position: relative;
+     top: -10px;
+     left: 10px;
+     width: 81px;
+     height: 27px;
+     padding-bottom:1px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 14px;
+     color: rgb(252, 249, 246);
+     background-color: rgb(207, 63, 72);
+     background-image: none;
+     border-radius: 20px;
+     border: none;
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .liButton {
+          position: relative;
+          top: -10px;
+          left: 10px;
+          width: 144px;
+          height: 36px;
+          padding: 0px 36px 2px 36px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 21px;
+          color: rgb(252, 249, 246);
+          background-color: rgb(207, 63, 72);
+          border-radius: 20px;
+          border: none;
+          transition: 0.4s;
+     }
+}
+
+/* III.04. Logout Button */
+.loButton:hover {
+     background-color: rgb(230, 156, 159);
+}
+
+.loButton {
+     width: 81px;
+     height: 27px;
+     z-index: 9;
+     padding-bottom: 1px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 14px;
+     color: rgb(54, 54, 54);
+     background-color: rgb(252, 249, 246);
+     border-radius: 20px;
+     border: none;
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .loButton {
+          width: 117px;
+          height: 30px;
+          z-index: 9;
+          padding-bottom: 2px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 18px;
+          color: rgb(54, 54, 54);
+          background-color: rgb(252, 249, 246);
+          border-radius: 20px;
+          border: none;
+          transition: 0.4s;
+     }
+}
+
+@media screen and (min-width: 920px){
+     .loButton {
+          width: 144px;
+          height: 36px;
+          z-index: 9;
+          padding: 0px 30px 2px 30px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 21px;
+          color: rgb(54, 54, 54);
+          background-color: rgb(252, 249, 246);
+          border-radius: 20px;
+          border: none;
+          transition: 0.4s;
+     }
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   IV. Login Form   ---===###===---   */
+.blur {
+     display: none;
+     position: fixed;
+     height: 100%;
+     width: 100%;
+     z-index: 100;
+     padding: 0px 0px;
+     margin: 0px;
+     background-color: rgba(63, 9, 18, 0.45);
+     filter: blur(99px);
+}
+
+.aCenter {
+     width: 270px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.lF {
+     display: none;
+     position: fixed;
+     top: 30%;
+     z-index: 100;
+     width: 270px;
+     text-decoration: none;
+     color: black;
+     background-color: rgb(252, 249, 246);
+     border: 1px;
+     border-style: solid;
+     border-color: black;
+     transition: 1.0s;
+}
+
+@media screen and (min-width: 600px){
+     .lF {
+          display: none;
+          position: fixed;
+          top: 30%;
+          z-index: 100;
+          width: 400px;
+          text-decoration: none;
+          color: black;
+          background-color: rgb(252, 249, 246);
+          border: 1px;
+          border-style: solid;
+          border-color: black;
+          transition: 1.0s;
+     }
+}
+
+/* IV.01. Login Form Title */
+.lFTitle {
+     padding: 18px 0px 9px 0px;
+     text-decoration: none;
+     text-align: center;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 16px;
+     color: rgb(54, 54, 54);
+}
+
+@media screen and (min-width: 600px){
+     .lFTitle {
+          padding: 53px 0px 18px 0px;
+          text-decoration: none;
+          text-align: center;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 18px;
+          color: rgb(54, 54, 54);
+     }
+}
+
+/* IV.02. Login Form Label */
+.lFLabel {
+     padding: 0px 3px 6px 9px;
+     text-decoration: none;
+     font-family: 'Arial';
+     font-size: 14px;
+     color: black;
+
+}
+
+@media screen and (min-width: 600px){
+     .lFLabel {
+          padding: 0px 9px 12px 18px;
+          text-decoration: none;
+          font-family: 'Arial';
+          font-size: 16px;
+          color: black;
+
+     }
+}
+
+/* IV.03.(i) Login Form Text Input 01 */
+.lFTInput01 {
+     outline: none;
+     height: 18px;
+     width: 63%;
+     padding-left: 3px;
+     margin: 0px 9px 6px 0px;
+     text-decoration: none;
+     font-family: 'Arial';
+     font-size: 14px;
+     color: rgb(96, 96, 96);
+     background-color: white;
+     border: 1px;
+     border-style: solid;
+     border-radius: 0px;
+     border-color: rgb(96, 96, 96);
+}
+
+@media screen and (min-width: 600px){
+     .lFTInput01 {
+          outline: none;
+          height: 25px;
+          padding-left: 3px;
+          margin: 0px 18px 12px 0px;
+          text-decoration: none;
+          font-family: 'Arial';
+          font-size: 16px;
+          color: rgb(96, 96, 96);
+          background-color: white;
+          border: 1px;
+          border-style: solid;
+          border-radius: 0px;
+          border-color: rgb(96, 96, 96);
+     }
+}
+
+/* IV.03.(ii) Login Form Text Input 02 */
+.lFTInput02 {
+     outline: none;
+     height: 18px;
+     width: 63%;
+     padding-left: 3px;
+     margin: 0px 9px 18px 1px;
+     text-decoration: none;
+     font-family: 'Arial';
+     font-size: 14px;
+     color: rgb(96, 96, 96);
+     background-color: white;
+     border: 1px;
+     border-style: solid;
+     border-radius: 0px;
+     border-color: rgb(96, 96, 96);
+}
+
+@media screen and (min-width: 600px){
+     .lFTInput02 {
+          outline: none;
+          height: 25px;
+          padding-left: 3px;
+          margin: 0px 18px 57px 3px;
+          text-decoration: none;
+          font-family: 'Arial';
+          font-size: 16px;
+          color: rgb(96, 96, 96);
+          background-color: white;
+          border: 1px;
+          border-style: solid;
+          border-radius: 0px;
+          border-color: rgb(96, 96, 96);
+     }
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   V. Secret Border   ---===###===---   */
+.sBorder {
+     width: 100%;
+     height: 2px;
+     padding: 0px 0px;
+     margin: 0px;
+     background-color: rgb(207, 63, 72);
+}
+
+@media screen and (min-width: 600px){
+     .sBorder {
+          width: 100%;
+          height: 5px;
+          padding: 0px 0px;
+          margin: 0px;
+          background-color: rgb(207, 63, 72);
+     }
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   VI. Navigation Bar 02  ---===###===---   */
+.nBar02 {
+     width: 100%;
+     padding-top: 3px;
+     margin: 0px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     background-color: rgb(207, 63, 72);
+}
+
+@media screen and (min-width: 600px){
+     .nBar02 {
+          width: 100%;
+          padding-top: 9px;
+          margin: 0px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          background-color: rgb(207, 63, 72);
+     }
+}
+
+/* IV.01. Navigation Bar 02 - Title */
+.nBTitle02 {
+     padding: 0px 12px 6px 12px;
+     font-size: 15px;
+     color: rgb(252, 249, 246);
+}
+
+@media screen and (min-width: 600px){
+     .nBTitle02 {
+          padding: 0px 15px 9px 15px;
+          font-size: 18px;
+          color: rgb(252, 249, 246);
+     }
+}
+
+@media screen and (min-width: 920px){
+     .nBTitle02 {
+          padding: 0px 18px 12px 18px;
+          font-size: 21px;
+          color: rgb(252, 249, 246);
+     }
+}
+
+/* IV.02. Navigation Bar 02 - Links */
+.nLink02 {
+     text-decoration: none;
+}
+
+/* IV.03. Navigation Bar 02 - Buttons */
+.nButton02:hover {
+     color: rgb(54, 54, 54);
+}
+
+.nButton02 {
+     width: auto;
+     padding: 1px 9px 2px 9px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 14px;
+     color: rgb(252, 249, 246);
+     background-color: rgb(207, 63, 72);
+     border: none;
+     cursor: pointer;
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .nButton02 {
+          width: auto;
+          padding: 2px 12px 3px 12px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 16px;
+          color: rgb(252, 249, 246);
+          background-color: rgb(207, 63, 72);
+          border: none;
+          cursor: pointer;
+          transition: 0.4s;
+     }
+}
+
+@media screen and (min-width: 920px){
+     .nButton02 {
+          width: auto;
+          padding: 3px 15px 6px 15px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 18px;
+          color: rgb(252, 249, 246);
+          background-color: rgb(207, 63, 72);
+          border: none;
+          cursor: pointer;
+          transition: 0.4s;
+     }
+}
+
+/* IV.04. Navigation Bar 02 - Active Button */
+.aNButton02:hover {
+     color: rgb(131, 59, 63);
+}
+
+.aNButton02 {
+     width: auto;
+     padding: 1px 9px 2px 9px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     font-size: 14px;
+     color: rgb(54, 54, 54);
+     background-color: rgb(252, 249, 246);
+     border: none;
+     cursor: pointer;
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .aNButton02 {
+          width: auto;
+          padding: 2px 12px 3px 12px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 16px;
+          color: rgb(54, 54, 54);
+          background-color: rgb(252, 249, 246);
+          border: none;
+          cursor: pointer;
+          transition: 0.4s;
+     }
+}
+
+@media screen and (min-width: 920px){
+     .aNButton02 {
+          width: auto;
+          padding: 3px 15px 6px 15px;
+          text-decoration: none;
+          font-family: 'Cantora One', sans-serif;
+          font-size: 18px;
+          color: rgb(54, 54, 54);
+          background-color: rgb(252, 249, 246);
+          border: none;
+          cursor: pointer;
+          transition: 0.4s;
+     }
+}

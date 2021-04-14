@@ -1,0 +1,71 @@
+/* padding: to ri bo le */
+
+/*   ---===###===---   ---===###===---   ---===###===---   Footer Box   ---===###===---   */
+.fBox {
+     position: relative;
+     bottom: 0px;
+     width: 100%;
+     padding: 0px 0px 3px 0px;
+     margin: 0px;
+     text-decoration: none;
+     font-family: 'Cantora One', sans-serif;
+     color: rgb(252, 249, 246);
+     background-color: rgb(54, 54, 54);
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   I. Copyright Statement   ---===###===---   */
+.cStatement {
+     margin-left: 2px;
+     font-family: sans-serif;
+     font-size: 10px;
+}
+
+@media screen and (min-width: 600px){
+     .cStatement {
+          margin-left: 6px;
+          font-family: sans-serif;
+          font-size: 10px;
+     }
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   II. Like Button Form   ---===###===---   */
+.gLForm {
+     text-align: center;
+     padding: 0px;
+     font-size: 14px;
+}
+
+@media screen and (min-width: 600px){
+     .gLForm {
+          text-align: center;
+          padding: 0px;
+          font-size: 18px;
+     }
+}
+
+/*   ---===###===---   ---===###===---   ---===###===---   II.01. Like Button   ---===###===---   */
+.lButton:hover {
+     border-color: rgb(230, 156, 159);
+}
+
+.lButton {
+     height: 27px;
+     width: 27px;
+     margin: 6px 2px 0px 18px;
+     border: solid;
+     border-width: 1px;
+     border-color: rgb(54, 54, 54);
+     transition: 0.4s;
+}
+
+@media screen and (min-width: 600px){
+     .lButton {
+          height: 45px;
+          width: 45px;
+          margin: 18px 6px 0px 36px;
+          border: solid;
+          border-width: 1px;
+          border-color: rgb(54, 54, 54);
+          transition: 0.4s;
+     }
+}
